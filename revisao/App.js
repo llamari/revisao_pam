@@ -5,6 +5,7 @@ import { LoadingPage } from './src/pages/LoadingPage';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { LoginPage } from './src/pages/LoginPage';
+import { SignIn } from './src/pages/SignUp';
 
 const Stack = createStackNavigator();
 
@@ -15,6 +16,7 @@ export default function App() {
         <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName={'Loading'}>
           <Stack.Screen name="Loading" component={LoadingPage} />
           <Stack.Screen name='Login' component={LoginPage}/>
+          <Stack.Screen name='SignIn' component={SignIn}/>
         </Stack.Navigator>
       </NavigationContainer>
     </GestureHandlerRootView>
