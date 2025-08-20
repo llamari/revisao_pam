@@ -5,7 +5,7 @@ import { LoadingPage } from './src/pages/LoadingPage';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { LoginPage } from './src/pages/LoginPage';
-import { SignIn } from './src/pages/SignUp';
+import { SignIn } from './src/pages/SignIn';
 
 const Stack = createStackNavigator();
 

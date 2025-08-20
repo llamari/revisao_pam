@@ -5,7 +5,7 @@ import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 
 
 export function SignIn({ navigation }) {
-    const [canSeePassword, setCanSeePassword] = useState(false);
+    const [canSeePassword, setCanSeePassword] = useState(true);
     const [isChecked, setChecked] = useState(false);
 
     return (
